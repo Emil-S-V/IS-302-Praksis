@@ -23,28 +23,8 @@ header {
 
 .logo-mark {
     flex-shrink: 0;
-}
-
-.brand-text {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.1;
-}
-
-.brand-name {
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: #1a2b47;
-}
-
-.brand-accent {
-    color: #2fb3a3;
-}
-
-.brand-tagline {
-    font-size: 0.6rem;
-    letter-spacing: 0.03em;
-    color: #6b7280;
+    height: 34px;
+    width: auto;
 }
 
 .project-title {
