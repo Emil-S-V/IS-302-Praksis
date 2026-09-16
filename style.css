@@ -86,6 +86,12 @@ header nav a:focus {
     color: #2fb3a3;
 }
 
+.page-title {
+    color: #243447;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
 /*Hovedinnhold for nettsiden*/
 .container {
     width: 90%;
