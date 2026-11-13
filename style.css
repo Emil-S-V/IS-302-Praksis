@@ -297,3 +297,14 @@ main {
         aspect-ratio: 4 / 3;
     }
 }
+
+/*Refleksjonsnotat: lik tekststørrelse og avstand i alle avsnitt*/
+.refleksjon .infobox p {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: 0 0 14px;
+}
+
+.refleksjon .infobox p:last-child {
+    margin-bottom: 0;
+}
