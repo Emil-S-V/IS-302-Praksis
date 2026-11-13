@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,11 +20,11 @@
 
             <nav>
                 <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="dagbok.html">Prosjektdagbok</a></li>
                     <li><a href="status-1.html">Status 1</a></li>
                     <li><a href="status-2.html">Status 2</a></li>
-                    <li><a href="refleksjonsnotat.html">Refleksjonsnotat</a></li>
+                    <li><a href="refleksjonsnotat.html" class="active">Refleksjonsnotat</a></li>
                 </ul>
                 <button class="search-btn" aria-label="Søk" type="button">
                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -38,7 +38,7 @@
 
     <main class="container">
 
-        <h1 class="page-title">Prosjektdagbok</h1>
+        <h1 class="page-title">Refleksjonsnotat</h1>
 
             <section class="infobox">
             <h2>Hva har gruppen gjort?</h2>
@@ -47,11 +47,43 @@
                 Gjennom praksisperioden har gruppen oppusset E-Waves sin hjemmenettside, slik at den følger en bedre 
                 layout, alle sidene har et konsistent arkitektur, og er bedre formatert.
                 <br>
-                Vi har lært oss hvordan man vedlikeholder neddsider på WordPress, automatisere informasjonsinnhenting ved bruk av APIer 
+                Vi har lært oss hvordan man vedlikeholder nettsider på WordPress, automatisere informasjonsinnhenting ved bruk av APIer 
                 og hvordan nettsider best når interesser for brukere gjennom velplassert informasjon og tillit. Nettsiden 
                 er offentlig, du finner den på <a href="https://ewaves.no/">E-Waves hjemmenettside.</a>
+                <br>
+                I tillegg har gruppen videreutviklet kunnskapsdatabasen Wavey, blant annet med en QR-løsning der deltakere
+                på arrangementer kan legge igjen anonyme tips som blir en del av kunnskapsbasen.
+            </p>
+        </section>
+
+        <section class="infobox">
+            <h2>Matias</h2>
+
+            <p>
+                Min del av praksisen har i hovedsak vært Wavey, E-Waves sin AI-chatbot, men jeg var også med på å designe
+                den nye nettsiden og kom med designforslag underveis. Jeg overtok Wavey fra et tidligere team, og noe av det
+                mest lærerike var å sette meg inn i kode jeg ikke hadde skrevet selv, få den til å kjøre og forstå hvordan
+                den henger sammen.
+            </p>
+            <p>
+                Det viktigste jeg tar med meg, er likevel ikke teknisk. Tidlig innså jeg at en chatbot som svarer på generelle
+                e-handelsspørsmål, ikke gir mye verdi når alle har tilgang til ChatGPT. Verdien måtte komme fra det bare
+                E-Waves har, nemlig nettverket og erfaringene til medlemmene. Derfor laget jeg QR-tips-løsningen. Jeg lærte
+                også at det kunden ber om, ikke alltid er det lureste. Ønsket om å bruke andres YouTube-videoer som egen
+                kunnskap måtte jeg si fra om, fordi det er juridisk risikabelt.
+            </p>
+            <p>
+                Noe jeg er fornøyd med, er at jeg bygde løsningen som en WordPress-utvidelse, slik at den kan brukes uten
+                ekstra hosting. Jeg laget også en enkel bruksanvisning for hvordan man aktiverer Gemini og lager QR-koder,
+                så arbeidsgiver kan ta løsningen i bruk selv når han er klar.
+            </p>
+            <p>
+                Hvis jeg skulle gjort noe annerledes, ville jeg tidligere avklart om arbeidsgiver var villig til å betale for
+                AI-tjenesten, og når løsningen kunne testes. QR-løsningen ble ferdig, men kunne ikke testes på et ekte
+                arrangement før praksisen var over.
             </p>
         </section>
 
     </main>
 </body>
+</html>
